@@ -1,0 +1,82 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  video {
+    object-fit: fill;
+    margin-left: -210px;
+  }
+  
+  .video-attribution {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Aptos', sans-serif;
+  }
+  
+  .title {
+    font-size: 100px;
+    text-shadow: 3px 5px 15px rgb(32, 36, 34);
+    font-family: 'Aptos', sans-serif;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .subtitle {
+    font-size: 32px;
+    text-shadow: 3px 5px 50px rgb(32, 36, 34);
+    font-family: 'Aptos', sans-serif;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  
+  .button-74 {
+    background-color: #088255;
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 30px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    font-family: 'Aptos', sans-serif;
+    position: absolute;
+    top: 80%;
+    left: 35%;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .button-74:hover {
+    background-color: rgb(68, 198, 83);
+  }
+  
+  .button-74:active {
+    box-shadow: #088255 2px 2px 0 0;
+    transform: translate(2px, 2px);
+  }
+  
+  @media (min-width: 768px) {
+    .button-74 {
+      min-width: 120px;
+      padding: 0 25px;
+    }
+  }
+  

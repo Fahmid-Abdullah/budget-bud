@@ -1,0 +1,28 @@
+.navbar-container {
+    margin-left: -100px;
+    margin-bottom: 1vw;
+    width: 240px;
+    align-content: center;
+    background-color: #ff6666;
+    border-radius: 5px;
+}
+
+.nav-box {
+    height: 2vw;
+    border-radius: 100px;
+}
+
+.nav-link {
+    color: #bd5656; /* white */
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #ff0000; /* darker coral red on hover */
+  }
+
+  .logo {
+    margin-left: 77vw;
+    width: auto;
+    height: 35px;
+  }

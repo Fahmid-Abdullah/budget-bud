@@ -58,6 +58,7 @@ router.put("/removesubscription/:userID", verifyToken, async (req, res) => {
                 await subscription.save();
                 res.json({ message: 'Subscription Ended Successfully.' });
             } else {
+                console.log("TEST: " + title);
                 res.status(404).json({ error: `Subscription not found for the user with title: ${title}.` });
             }
         } else {

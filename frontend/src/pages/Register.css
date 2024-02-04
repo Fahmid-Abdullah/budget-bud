@@ -1,0 +1,33 @@
+.register__bg {
+    background-image: url(https://images.unsplash.com/photo-1682687221323-6ce2dbc803ab?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    margin-left: -105px;
+    opacity: 0;
+    animation: myAnim 0.5s ease-in-out 0s 1 normal forwards;
+}
+
+.register-container {
+    margin-left: 20px;
+    animation: myAnim 0.5s ease-in-out 0s 1 normal forwards;
+}
+
+.register-container h1 {
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+@keyframes myAnim {
+    0% {
+        opacity: 0;
+        transform: translateX(-250px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

@@ -1,0 +1,336 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffcccc;  
+  }
+
+  .custom-left-align {
+    margin-left: -5vw;
+  }
+  
+  .top-select select {
+    margin-left: 1vw;
+    margin-right: 5vw;
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 4px;
+    background-color: #ff6666;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 1vw;
+    transition: border-color 0.3s ease;
+  }
+  
+  .top-select label {
+    font-size: 20px;
+  }
+  
+  .top-select select:hover,
+  .top-select select:focus {
+    border-color: #ff3333;
+  }
+  
+  .top-select select:active,
+  .top-select select:checked {
+    color: #fff;
+  }
+  
+  .numbers-container {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 35%;
+    margin-top: -7%;
+    margin-bottom: 15px;
+  }
+  
+  .number-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .number-wrapper {
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #ffcccc;
+  }
+  
+  .label {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  
+  .number {
+    font-size: 35px;
+    margin: 0;
+  }
+  
+  .edit-button {
+    border: none;
+    background-color: #ffcccc;
+    width: 32px;
+    height: 30px;
+    margin-left: 5px;
+    margin-top: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-button:hover {
+    background-color: #ffd9d9;
+  }
+
+  .update-button {
+    font-weight: bold;
+    background-color: #ff6666;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-color: #ff3333;
+    transition: background-color 0.3s ease;
+  }
+
+  .update-button:hover {
+    background-color: #810000;
+  }
+
+  .update-button:active {
+    background-color: #940404;
+  }
+
+  .budget-box {
+    display: flex;
+  }
+  
+  .expense-container {
+    border: 2px solid #cc0000;
+    border-radius: 5px;
+    margin-left: -5vw;
+    height: 25vw;
+    width: 100%;
+    overflow-y: auto;
+  }
+  
+  .expense-header {
+    margin-left: -8vw;
+  }
+  
+  .sub-header {
+    margin-left: 12vw;
+  }
+  
+  .expense-container::-webkit-scrollbar,
+  .sub-container::-webkit-scrollbar {
+    width: 15px;
+    margin-left: 10vw;
+  }
+  
+  .expense-container::-webkit-scrollbar-thumb,
+  .sub-container::-webkit-scrollbar-thumb {
+    background-color: #cc0000;
+    border-radius: 8px;
+  }
+  
+  .expense-container::-webkit-scrollbar-track,
+  .sub-container::-webkit-scrollbar-track {
+    background-color: #ffd9d9;
+  }
+  
+  .sub-container {
+    border: 2px solid #cc0000;
+    border-radius: 5px;
+    height: 20vw;
+    width: 35vw;
+    margin-top: -1vw;
+    overflow-y: auto;
+  }
+  
+  .sub-box {
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #ffcccc;
+  }
+  
+  .box-wrapper {
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #ffcccc;
+  }
+  
+  .expense-input-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -5vw;
+  }
+  
+  .expense-input-item {
+    display: flex;
+  }
+  
+  .name_input,
+  #input {
+    width: 100%;
+  }
+  
+  .saved-expenses {
+    width: 100%;
+  }
+  
+  .expense-text-input {
+    margin-top: 1.5vw;
+  }
+  
+  .expense-save {
+    margin-top: 1vw;
+  }
+  
+  .new-balance-input button {
+    font-size: 10px;
+  }
+  
+  .expense-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 1px;
+    background-color: #ffd9d9;
+    transition: background-color 0.3s ease;
+  }
+  
+  .expense-item:hover {
+    background-color: #ff9999;
+  }
+  
+  .expense-details {
+    width: 100%;
+    margin-top: 1vw;
+    display: flex;
+    align-items: center;
+  }
+  
+  .expense-title {
+    margin-right: 10px;
+    width: 30%;
+    font-size: 18px;
+  }
+  
+  .add-button {
+    margin-top: 5vw;
+    margin-left: 32vw;
+    font-weight: bold;
+    line-height: 20px;
+    height: 3.5vw;
+    background-color: #ff6666;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-color: #ff3333;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-expense-btn {
+    font-weight: bold;
+    background-color: #ff6666;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-color: #ff3333;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sub-add-btn {
+    font-weight: bold;
+    background-color: #ff6666;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-color: #ff3333;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-button:hover {
+    background-color: #ff3333;
+  }
+
+  .add-button:hover {
+    background-color: #810000;
+  }
+  
+  .add-expense-btn:hover {
+    background-color: #ff3333;
+  }
+  
+  .sub-add-btn:hover {
+    background-color: #ff3333;
+  }
+
+  .sub-add-btn:hover {
+    background-color: #810000;
+  }
+  
+  .new-subscription-input {
+    margin-top: 5vw;
+    width: 100%;
+  }
+  
+  .subscription-input-container {
+    margin-top: -4vw;
+    width: 35vw;
+  }
+  
+  .subscription-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 1px;
+    background-color: #ffd9d9;
+    transition: background-color 0.3s ease;
+  }
+  
+  .subscription-item:hover {
+    background-color: #ff9999;
+  }
+  
+  .subscription-details {
+    width: 100%;
+    margin-top: 1vw;
+    display: flex;
+    align-items: center;
+  }
+  
+  .subscription-title {
+    margin-right: 10px;
+    width: 30%;
+    text-align: left;
+  }
+  
+  .subscription-cost {
+    margin-left: 5vw;
+  }
+  
+  .expense-cost {
+    margin-left: 10vw;
+  }
+  
+  .header-title {
+    font-weight: bold;
+  }
+  
+  .delete-btn {
+    font-weight: bold;
+  }
+  
+  .delete-btn:hover {
+    background-color: #810000;
+  }

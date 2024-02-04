@@ -1,0 +1,42 @@
+.stats-container {
+    margin-left: 8.5vw;
+}
+
+.year-type-selection {
+    margin-top: 2vw;
+    display: flex;
+}
+
+/* Top Select Styles */
+.top-select select {
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 4px;
+    background-color: #ff6666; /* coral red */
+    color: #ffffff; /* white */
+    cursor: pointer;
+    margin-top: 1vw;
+    transition: border-color 0.3s ease;
+  }
+  
+  .top-select select:hover,
+  .top-select select:focus {
+    border-color: #ff3333; /* lighter red on hover/focus */
+  }
+  
+  .top-select select:active,
+  .top-select select:checked {
+    color: #fff;
+  }
+
+.loading-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+.graph {
+    margin-top: 5vw;
+    margin-left: -7vw;
+}
